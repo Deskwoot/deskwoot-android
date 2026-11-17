@@ -15,7 +15,7 @@ It talks to Deskwoot's public widget API with the inbox's widget token. Visitors
 
 ## Install
 
-The SDK is the Maven artifact `com.deskwoot:deskwoot-android`, version `1.0.0` (an AAR with its sources and its POM). It is not on Maven Central yet. Once it is, it comes from there:
+The SDK is on Maven Central as `com.deskwoot:deskwoot-android` (an AAR with its sources, its API documentation and its POM):
 
 ```kotlin
 // settings.gradle.kts
@@ -32,7 +32,7 @@ dependencies {
 }
 ```
 
-Until then, publish it from this repository into your local Maven repository and add `mavenLocal()` to the repositories above:
+To build it yourself, publish it from this repository into your local Maven repository and put `mavenLocal()` first:
 
 ```sh
 ./gradlew :deskwoot:publishToMavenLocal
