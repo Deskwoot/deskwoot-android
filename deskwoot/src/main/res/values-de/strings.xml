@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the web messenger's dictionary. Do not edit by hand: change the dictionary and generate this file again. -->
+<!-- Language: de (DE) -->
+<resources>
+
+    <!-- Home surface -->
+    <string name="dw_start_conversation">Unterhaltung starten</string>
+    <string name="dw_reply_minutes">Antwortet meist in wenigen Minuten</string>
+    <string name="dw_reply_hours">Antwortet meist in wenigen Stunden</string>
+    <string name="dw_reply_day">Antwortet meist innerhalb eines Tages</string>
+    <string name="dw_recent">Kürzlich</string>
+    <string name="dw_suggested">Für dich empfohlen</string>
+    <string name="dw_support_team">Support-Team</string>
+    <string name="dw_resume_hint">Mach da weiter, wo du aufgehört hast</string>
+    <string name="dw_you">Du</string>
+    <string name="dw_support">Support</string>
+
+    <!-- Bootstrap -->
+    <string name="dw_loading">Wird geladen …</string>
+    <string name="dw_load_error">Der Chat konnte nicht geladen werden. Bitte die Verbindung prüfen und es erneut versuchen.</string>
+    <string name="dw_try_again">Erneut versuchen</string>
+
+    <!-- Header -->
+    <string name="dw_online">Online</string>
+    <string name="dw_away">Abwesend</string>
+    <string name="dw_back">Zurück</string>
+    <string name="dw_close">Schließen</string>
+
+    <!-- Footer + conversation controls -->
+    <string name="dw_powered_by">Bereitgestellt von</string>
+    <string name="dw_end_conversation">Unterhaltung beenden</string>
+    <string name="dw_ending">Wird beendet …</string>
+    <string name="dw_end_failed">Die Unterhaltung konnte nicht beendet werden. Bitte versuch es erneut.</string>
+    <string name="dw_start_new_conversation">Neue Unterhaltung starten</string>
+
+    <!-- Composer -->
+    <string name="dw_type_message">Schreib eine Nachricht …</string>
+    <string name="dw_bot_replying">Bot antwortet …</string>
+
+    <!-- While Fynn runs a tool (BotIndicator): plain words, never a tool or vendor name. -->
+    <string name="dw_tool_order">Bestellung wird geprüft …</string>
+    <string name="dw_tool_lookup">Wird nachgeschaut …</string>
+    <string name="dw_tool_times">Freie Termine werden gesucht …</string>
+    <string name="dw_tool_appointments">Termine werden geprüft …</string>
+    <string name="dw_tool_details">Angaben werden nachgeschlagen …</string>
+    <string name="dw_tool_products">Produkte werden durchsucht …</string>
+    <string name="dw_tool_checking">Wird geprüft …</string>
+    <string name="dw_upload_failed">Upload fehlgeschlagen</string>
+    <string name="dw_send_failed">Deine Nachricht konnte nicht gesendet werden. Bitte versuche es erneut.</string>
+    <string name="dw_uploading_file">Datei wird hochgeladen …</string>
+    <string name="dw_emoji_soon">Emoji-Auswahl kommt bald</string>
+    <string name="dw_attach_file">Datei anhängen</string>
+    <string name="dw_send_message">Nachricht senden</string>
+    <string name="dw_type_your_message">Nachricht schreiben</string>
+    <string name="dw_pick_emoji">Emoji wählen</string>
+
+    <!-- Reply on a message (the quote above the composer and in the bubble) -->
+    <string name="dw_reply">Antworten</string>
+    <string name="dw_replying_to_message">Antwort auf eine Nachricht</string>
+    <string name="dw_cancel_reply">Antwort abbrechen</string>
+
+    <!-- The help center article a question comes from (HelpArticleCard) -->
+    <string name="dw_help_center_article">Artikel aus dem Help-Center</string>
+    <string name="dw_remove_article">Artikel entfernen</string>
+
+    <!-- Help center -->
+    <string name="dw_search_help">Hilfe durchsuchen</string>
+    <string name="dw_search_help_aria">Hilfeartikel durchsuchen</string>
+    <string name="dw_updated">Aktualisiert %1$s</string> <!-- args: %1$s = date -->
+
+    <!-- CSAT -->
+    <string name="dw_csat_prompt">Wie war unser Support heute?</string>
+    <string name="dw_csat_tap">Tippe auf %1$s, um zu bewerten.</string> <!-- args: %1$s = kind -->
+    <string name="dw_csat_star">einen Stern</string>
+    <string name="dw_csat_heart">ein Herz</string>
+    <string name="dw_csat_rating">eine Bewertung</string>
+    <string name="dw_csat_feedback_placeholder">Noch ein Feedback? (optional)</string>
+
+    <!-- Transcript banner -->
+    <string name="dw_transcript_offer">Möchtest du eine Kopie dieser Unterhaltung?</string>
+    <string name="dw_transcript_need_email">An welche E-Mail sollen wir sie senden?</string>
+    <string name="dw_transcript_sent">Verlauf an deine E-Mail gesendet</string>
+    <string name="dw_transcript_sending">Wird gesendet …</string>
+    <string name="dw_transcript_retry">Fehlgeschlagen. Erneut versuchen</string>
+    <string name="dw_transcript_send">An meine E-Mail senden</string>
+    <string name="dw_email_placeholder">du@beispiel.de</string>
+    <string name="dw_send">Senden</string>
+
+    <!-- Pre-chat form -->
+    <string name="dw_pre_chat_intro">Teile uns kurz ein paar Details mit, damit wir uns bei dir melden können.</string>
+    <string name="dw_pre_chat_submit">Unterhaltung starten</string>
+
+    <!-- Pre-chat / email-collect validation -->
+    <string name="dw_field_required">Dieses Feld ist erforderlich</string>
+    <string name="dw_invalid_email">Bitte gib eine gültige E-Mail-Adresse ein.</string>
+    <string name="dw_real_email">Bitte gib eine echte E-Mail-Adresse ein.</string>
+
+    <!-- Email collect -->
+    <string name="dw_email_prompt">Hinterlass uns deine E-Mail, damit wir uns bei dir melden können.</string>
+    <string name="dw_continue_btn">Weiter</string>
+    <string name="dw_cancel">Abbrechen</string>
+
+    <!-- Help center search -->
+    <string name="dw_searching">Wird gesucht …</string>
+    <string name="dw_search_error">Suche gerade nicht möglich. Bitte versuch es erneut.</string>
+    <string name="dw_no_results">Keine Ergebnisse für „%1$s\". Probier ein anderes Stichwort oder frag im Chat.</string> <!-- args: %1$s = q -->
+
+    <!-- CSAT (post-submit) -->
+    <string name="dw_csat_thank_you">Danke!</string>
+    <string name="dw_csat_feedback_helps">Dein Feedback hilft uns, besser zu werden.</string>
+    <string name="dw_csat_submit">Absenden</string>
+    <string name="dw_csat_submitting">Wird gesendet …</string>
+    <string name="dw_csat_submit_error">Bewertung konnte nicht gesendet werden. Bitte versuch es erneut.</string>
+
+    <!-- Article detail -->
+    <string name="dw_article_loading">Wird geladen …</string>
+    <string name="dw_article_load_error">Dieser Artikel konnte nicht geladen werden.</string>
+    <string name="dw_min_read">%1$s Min. Lesezeit</string> <!-- args: %1$s = min -->
+    <string name="dw_time_just_now">gerade eben</string>
+    <string name="dw_time_minutes_ago">vor %1$s Min.</string> <!-- args: %1$s = n -->
+    <string name="dw_time_hours_ago">vor %1$s Std.</string> <!-- args: %1$s = n -->
+    <string name="dw_time_days_ago">vor %1$s Tagen</string> <!-- args: %1$s = n -->
+    <string name="dw_by_author">von %1$s</string> <!-- args: %1$s = author -->
+    <string name="dw_open_in_help_center">Im Help-Center öffnen</string>
+    <string name="dw_article_helpful">War dieser Artikel hilfreich?</string>
+    <string name="dw_yes">Ja</string>
+    <string name="dw_no">Nein</string>
+    <string name="dw_feedback_thanks_yes">Danke für dein Feedback. Freut uns, dass es geholfen hat.</string>
+    <string name="dw_feedback_thanks_no">Danke für den Hinweis. Wir arbeiten daran, das zu verbessern. Du kannst unten auch einen Chat starten für direkte Hilfe.</string>
+
+    <!-- Tabs -->
+    <string name="dw_tab_conversation">Unterhaltung</string>
+    <string name="dw_tab_help">Help-Center</string>
+
+    <!-- Gating header -->
+    <string name="dw_before_we_start">Bevor wir starten</string>
+
+    <!-- Help center header -->
+    <string name="dw_help_header">Wie können wir helfen?</string>
+    <string name="dw_help_sub">Durchsuche Artikel oder stöbere in beliebten Themen.</string>
+    <string name="dw_popular_articles">Beliebte Artikel</string>
+
+    <!-- CSAT a11y -->
+    <string name="dw_csat_rate_aria">Bewertung %1$s von %2$s</string> <!-- args: %1$s = n, %2$s = max -->
+
+    <!-- Message meta -->
+    <string name="dw_just_now">Gerade eben</string>
+    <string name="dw_new_messages">Neue Nachrichten</string>
+
+    <!-- The × on a card above the launcher -->
+    <string name="dw_hide_message">Nachricht ausblenden</string>
+
+    <!-- Queue position while waiting for an agent -->
+    <string name="dw_queue_next">Du bist als Nächstes dran. Gleich ist jemand für dich da.</string>
+    <string name="dw_queue_position">Du bist Nummer %1$s in der Warteschlange. Der nächste freie Mitarbeiter meldet sich bei dir.</string> <!-- args: %1$s = n -->
+
+    <!-- Continuous chat: conversation boundaries and status lines in the thread -->
+    <string name="dw_chat_closed">Unterhaltung geschlossen</string>
+    <string name="dw_new_conversation">Neue Unterhaltung</string>
+    <string name="dw_resolved_by_you">Du hast die Unterhaltung beendet</string>
+
+    <!-- The visitor's own "Frage geklärt" in the thread, where the button's label is not there (Fynn 2.0). -->
+    <string name="dw_question_resolved">Frage geklärt</string>
+    <string name="dw_conversation_resolved">Unterhaltung abgeschlossen</string>
+    <string name="dw_conversation_reopened">Unterhaltung wieder geöffnet</string>
+
+    <!-- Handover between team members (a take over or transfer): system lines with the agent's name (teamMember* when the server sends none) and the waiting line until the next one joins -->
+    <string name="dw_agent_left">%1$s ist nicht mehr im Chat</string> <!-- args: %1$s = name -->
+    <string name="dw_agent_joined">%1$s ist jetzt im Chat</string> <!-- args: %1$s = name -->
+    <string name="dw_team_member_left">Ein Teammitglied ist nicht mehr im Chat</string>
+    <string name="dw_team_member_joined">Ein Teammitglied ist jetzt im Chat</string>
+
+    <!-- The bot handed the conversation to the team (by what happened next), and a live chat that continues by email at the visitor's address -->
+    <string name="dw_bot_handoff_assigned">Der Bot hat die Unterhaltung übergeben. Gleich ist ein Mitarbeiter für dich da...</string>
+    <string name="dw_bot_handoff_queued">Der Bot hat die Unterhaltung übergeben. Du bist in der Warteschlange, der nächste freie Mitarbeiter meldet sich bei dir.</string>
+    <string name="dw_bot_handoff_waiting">Der Bot hat die Unterhaltung übergeben. Ein Mitarbeiter antwortet dir in Kürze.</string>
+    <string name="dw_bot_handoff_ai_agent">Der Bot hat die Unterhaltung an %1$s übergeben, einen KI-Agenten.</string> <!-- args: %1$s = name -->
+    <string name="dw_ai_agent_badge">%1$s · KI-Agent</string> <!-- args: %1$s = name -->
+    <string name="dw_continued_by_email">Diese Unterhaltung geht per E-Mail an %1$s weiter</string> <!-- args: %1$s = email -->
+    <string name="dw_waiting_next_agent">Du wirst gleich mit dem nächsten Teammitglied verbunden</string>
+    <string name="dw_connecting">Wir verbinden dich …</string>
+
+    <!-- A file sent without text: the Recent row preview and a nameless file. -->
+    <string name="dw_file_preview">Datei: %1$s</string> <!-- args: %1$s = name -->
+    <string name="dw_file_sent_preview">Datei gesendet</string>
+    <string name="dw_file_label">Datei</string>
+
+    <!-- Error boundary fallback -->
+    <string name="dw_crash_message">Im Chat ist etwas schiefgelaufen. Lade ihn neu, um weiterzumachen.</string>
+
+    <!-- Upload refusals, one per server code -->
+    <string name="dw_upload_too_large">Diese Datei ist zu groß. Dateien dürfen bis zu %1$s MB groß sein.</string> <!-- args: %1$s = max -->
+    <string name="dw_upload_type_not_allowed">Dieser Dateityp kann hier nicht gesendet werden.</string>
+    <string name="dw_upload_rejected">Unser Virenscan hat diese Datei blockiert.</string>
+    <string name="dw_upload_scan_unavailable">Wir konnten diese Datei nicht auf Viren prüfen. Bitte versuch es gleich noch einmal.</string>
+    <string name="dw_upload_storage_unavailable">Wir konnten diese Datei nicht speichern. Bitte versuch es gleich noch einmal.</string>
+    <string name="dw_upload_rate_limited">Zu viele Uploads. Bitte warte eine Minute und versuch es dann erneut.</string>
+    <string name="dw_uploads_disabled">Datei-Uploads sind in diesem Chat deaktiviert.</string>
+    <string name="dw_upload_conversation_closed">Diese Unterhaltung ist geschlossen, daher können keine Dateien hinzugefügt werden.</string>
+    <string name="dw_conversation_closed_read_only">Diese Unterhaltung ist geschlossen.</string>
+    <string name="dw_upload_needs_message">Schreib zuerst eine Nachricht, dann kannst du eine Datei anhängen.</string>
+
+    <!-- The bot's tracking card under its reply -->
+    <string name="dw_tracking_on_its_way">Unterwegs</string>
+    <string name="dw_tracking_out_for_delivery">In Zustellung</string>
+    <string name="dw_tracking_parcel">Dein Paket</string>
+    <string name="dw_tracking_order">Bestellung %1$s</string> <!-- args: %1$s = number -->
+    <string name="dw_tracking_expected">Voraussichtlich %1$s</string> <!-- args: %1$s = date -->
+    <string name="dw_tracking_link">Sendung verfolgen</string>
+
+    <!-- Fynn's buttons under his answer and under the greeting: the group's name for screen readers (the labels come from the server) -->
+    <string name="dw_chat_options">Optionen für den Chat</string>
+
+    <!-- Widget 2.0: the 3 designs of the open widget (start page, conversations, help, the chat header and the launcher) -->
+    <string name="dw_write_to_us">Schreib uns</string>
+    <string name="dw_your_conversations">Deine Unterhaltungen</string>
+    <string name="dw_your_conversation">Deine Unterhaltung</string>
+    <string name="dw_see_all_conversations">Alle %1$s ansehen</string> <!-- args: %1$s = n -->
+    <string name="dw_all_count">Alle %1$s</string> <!-- args: %1$s = n -->
+    <string name="dw_help">Hilfe</string>
+    <string name="dw_help_title">Wobei brauchst du Hilfe?</string>
+    <string name="dw_search_placeholder">Wonach suchst du?</string>
+    <string name="dw_clear_search">Suche leeren</string>
+    <string name="dw_topics">Themen</string>
+    <string name="dw_article_count">%1$s Artikel</string> <!-- args: %1$s = n -->
+    <string name="dw_article_count_one">1 Artikel</string>
+    <string name="dw_results_for">%1$s Artikel zu „%2$s“</string> <!-- args: %1$s = n, %2$s = q -->
+    <string name="dw_results_for_one">1 Artikel zu „%1$s“</string> <!-- args: %1$s = q -->
+    <string name="dw_nothing_fitting">Nichts Passendes dabei?</string>
+    <string name="dw_bot_answers_now">%1$s antwortet sofort.</string> <!-- args: %1$s = name -->
+    <string name="dw_team_minutes">Das Team meist in wenigen Minuten.</string>
+    <string name="dw_team_hours">Das Team meist in wenigen Stunden.</string>
+    <string name="dw_team_day">Das Team meist innerhalb eines Tages.</string>
+    <string name="dw_ask_name">Frag %1$s</string> <!-- args: %1$s = name -->
+    <string name="dw_still_questions">Noch Fragen?</string>
+    <string name="dw_ai_assistant">KI-Assistent</string>
+    <string name="dw_answers_right_away">antwortet sofort</string>
+    <string name="dw_in_the_chat">im Chat</string>
+    <string name="dw_is_in_the_chat">%1$s ist im Chat</string> <!-- args: %1$s = name -->
+    <string name="dw_open_conversation_with">Offene Unterhaltung mit %1$s</string> <!-- args: %1$s = name -->
+    <string name="dw_write_your_question">Schreib deine Frage …</string>
+    <string name="dw_might_help">Vielleicht hilft dir das schon</string>
+    <string name="dw_ask_about_article">Frag %1$s zu diesem Artikel</string> <!-- args: %1$s = name -->
+    <string name="dw_write_about_article">Schreib uns zu diesem Artikel</string>
+    <string name="dw_no_conversations">Noch keine Unterhaltungen. Schreib uns, wir melden uns bei dir.</string>
+    <string name="dw_unread_message">Neue Nachricht</string>
+    <string name="dw_sections">Bereiche</string>
+    <string name="dw_today">Heute</string>
+    <string name="dw_yesterday">Gestern</string>
+    <string name="dw_open_chat">Chat öffnen</string>
+    <string name="dw_close_chat">Chat schließen</string>
+    <string name="dw_launcher_default">Chatte mit uns</string>
+
+    <!-- A sentence ending with the language's own full stop, and 2 sentences in a row (a space, none in Japanese and Chinese). -->
+    <string name="dw_sentence">%1$s.</string> <!-- args: %1$s = text -->
+    <string name="dw_two_sentences">%1$s %2$s</string> <!-- args: %1$s = first, %2$s = second -->
+    <string name="dw_you_said">Du: %1$s</string> <!-- args: %1$s = text -->
+    <string name="dw_open_on_help_center">Im Help-Center öffnen</string>
+</resources>

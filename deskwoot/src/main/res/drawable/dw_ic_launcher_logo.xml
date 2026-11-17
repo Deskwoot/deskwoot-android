@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The web messenger's launcher logo icon (24 x 24, drawn in currentColor). Tinted at runtime. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M6.683 0.923H17.317A5.76 5.76 0 0 1 23.077 6.683V17.317A5.76 5.76 0 0 1 17.317 23.077H0.923V6.683A5.76 5.76 0 0 1 6.683 0.923ZM5.538,13.931A2.769,2.769 0 0,0 11.077,13.931L11.077,8.869A2.769,2.769 0 0,0 5.538,8.869ZM12.923,13.931A2.769,2.769 0 0,0 18.462,13.931L18.462,8.869A2.769,2.769 0 0,0 12.923,8.869Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M7.385 8.835A1.385 1.385 0 0 1 10.154 8.835V10.865A1.385 1.385 0 0 1 7.385 10.865ZM14.769 8.835A1.385 1.385 0 0 1 17.538 8.835V10.865A1.385 1.385 0 0 1 14.769 10.865Z"
+        android:fillColor="#FF000000" />
+</vector>

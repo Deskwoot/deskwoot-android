@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dw_sdk_notification_channel">Respostas do chat</string>
+    <string name="dw_sdk_offline">Sem conexão. Tentando novamente…</string>
+    <string name="dw_sdk_camera">Câmera</string>
+    <string name="dw_sdk_photos">Fotos</string>
+    <string name="dw_sdk_files">Escolher arquivo</string>
+    <string name="dw_sdk_share">Compartilhar</string>
+    <string name="dw_sdk_unavailable">Este chat não está disponível no momento.</string>
+    <string name="dw_sdk_identity_failed">Não foi possível confirmar a conta.</string>
+    <string name="dw_sdk_server_error">Algo deu errado do nosso lado.</string>
+    <string name="dw_sdk_not_sent">Não enviada</string>
+    <string name="dw_sdk_discard">Excluir</string>
+    <string name="dw_sdk_copy">Copiar</string>
+    <string name="dw_sdk_sending">Enviando</string>
+    <string name="dw_sdk_image">Imagem</string>
+    <string name="dw_sdk_is_typing">%1$s está digitando</string>
+    <string name="dw_sdk_announce">%1$s: %2$s</string>
+    <string name="dw_sdk_too_long">Esta mensagem é longa demais para ser enviada.</string>
+    <string name="dw_sdk_send_rate_limited">Muitas mensagens em pouco tempo. Em instantes será possível tentar de novo.</string>
+    <string name="dw_sdk_send_new_conversation_limit">Muitas conversas novas neste momento. Mais tarde voltará a funcionar.</string>
+    <string name="dw_sdk_send_monthly_limit">Este chat não pode iniciar novas conversas no momento.</string>
+    <string name="dw_sdk_send_conversation_resolved">Esta conversa foi encerrada e não aceita mais mensagens.</string>
+    <plurals name="dw_sdk_unread">
+        <item quantity="one">%1$d nova mensagem</item>
+        <item quantity="many">%1$d novas mensagens</item>
+        <item quantity="other">%1$d novas mensagens</item>
+    </plurals>
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>

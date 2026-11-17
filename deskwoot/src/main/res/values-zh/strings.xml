@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated from the web messenger's dictionary. Do not edit by hand: change the dictionary and generate this file again. -->
+<!-- Language: zh (ZH) -->
+<resources>
+
+    <!-- Home surface -->
+    <string name="dw_start_conversation">开始对话</string>
+    <string name="dw_reply_minutes">通常几分钟内回复</string>
+    <string name="dw_reply_hours">通常几小时内回复</string>
+    <string name="dw_reply_day">通常一天内回复</string>
+    <string name="dw_recent">最近</string>
+    <string name="dw_suggested">为你推荐</string>
+    <string name="dw_support_team">客服团队</string>
+    <string name="dw_resume_hint">从上次中断处继续</string>
+    <string name="dw_you">你</string>
+    <string name="dw_support">客服</string>
+
+    <!-- Bootstrap -->
+    <string name="dw_loading">加载中...</string>
+    <string name="dw_load_error">无法加载聊天。请检查网络连接后重试。</string>
+    <string name="dw_try_again">重试</string>
+
+    <!-- Header -->
+    <string name="dw_online">在线</string>
+    <string name="dw_away">离开</string>
+    <string name="dw_back">返回</string>
+    <string name="dw_close">关闭</string>
+
+    <!-- Footer + conversation controls -->
+    <string name="dw_powered_by">技术支持</string>
+    <string name="dw_end_conversation">结束对话</string>
+    <string name="dw_ending">正在结束...</string>
+    <string name="dw_end_failed">无法结束对话，请重试。</string>
+    <string name="dw_start_new_conversation">开始新对话</string>
+
+    <!-- Composer -->
+    <string name="dw_type_message">输入消息...</string>
+    <string name="dw_bot_replying">机器人正在回复...</string>
+
+    <!-- While Fynn runs a tool (BotIndicator): plain words, never a tool or vendor name. -->
+    <string name="dw_tool_order">正在查询您的订单…</string>
+    <string name="dw_tool_lookup">正在查找…</string>
+    <string name="dw_tool_times">正在查找空闲时间…</string>
+    <string name="dw_tool_appointments">正在查看您的预约…</string>
+    <string name="dw_tool_details">正在查找您的信息…</string>
+    <string name="dw_tool_products">正在搜索商品…</string>
+    <string name="dw_tool_checking">正在核实…</string>
+    <string name="dw_upload_failed">上传失败</string>
+    <string name="dw_send_failed">消息发送失败，请重试。</string>
+    <string name="dw_uploading_file">正在上传文件…</string>
+    <string name="dw_emoji_soon">表情选择器即将推出</string>
+    <string name="dw_attach_file">添加附件</string>
+    <string name="dw_send_message">发送消息</string>
+    <string name="dw_type_your_message">输入你的消息</string>
+    <string name="dw_pick_emoji">选择表情</string>
+
+    <!-- Reply on a message (the quote above the composer and in the bubble) -->
+    <string name="dw_reply">回复</string>
+    <string name="dw_replying_to_message">回复一条消息</string>
+    <string name="dw_cancel_reply">取消回复</string>
+
+    <!-- The help center article a question comes from (HelpArticleCard) -->
+    <string name="dw_help_center_article">帮助中心文章</string>
+    <string name="dw_remove_article">移除文章</string>
+
+    <!-- Help center -->
+    <string name="dw_search_help">搜索帮助</string>
+    <string name="dw_search_help_aria">搜索帮助文章</string>
+    <string name="dw_updated">更新于 %1$s</string> <!-- args: %1$s = date -->
+
+    <!-- CSAT -->
+    <string name="dw_csat_prompt">今天的服务怎么样？</string>
+    <string name="dw_csat_tap">点击%1$s为本次体验评分。</string> <!-- args: %1$s = kind -->
+    <string name="dw_csat_star">星星</string>
+    <string name="dw_csat_heart">爱心</string>
+    <string name="dw_csat_rating">评分</string>
+    <string name="dw_csat_feedback_placeholder">还有其他反馈吗？（可选）</string>
+
+    <!-- Transcript banner -->
+    <string name="dw_transcript_offer">需要一份本次对话的记录吗？</string>
+    <string name="dw_transcript_need_email">发送到哪个邮箱？</string>
+    <string name="dw_transcript_sent">对话记录已发送到你的邮箱</string>
+    <string name="dw_transcript_sending">发送中…</string>
+    <string name="dw_transcript_retry">失败，重试</string>
+    <string name="dw_transcript_send">发送到我的邮箱</string>
+    <string name="dw_email_placeholder">you@example.com</string>
+    <string name="dw_send">发送</string>
+
+    <!-- Pre-chat form -->
+    <string name="dw_pre_chat_intro">请留下一些信息，方便我们联系你。</string>
+    <string name="dw_pre_chat_submit">开始对话</string>
+
+    <!-- Pre-chat / email-collect validation -->
+    <string name="dw_field_required">此项为必填</string>
+    <string name="dw_invalid_email">请输入有效的邮箱地址。</string>
+    <string name="dw_real_email">请使用真实的邮箱地址。</string>
+
+    <!-- Email collect -->
+    <string name="dw_email_prompt">留下你的邮箱，方便我们后续联系。</string>
+    <string name="dw_continue_btn">继续</string>
+    <string name="dw_cancel">取消</string>
+
+    <!-- Help center search -->
+    <string name="dw_searching">搜索中…</string>
+    <string name="dw_search_error">暂时无法搜索，请重试。</string>
+    <string name="dw_no_results">没有找到与“%1$s”相关的结果。试试其他关键词，或在对话中提问。</string> <!-- args: %1$s = q -->
+
+    <!-- CSAT (post-submit) -->
+    <string name="dw_csat_thank_you">感谢你！</string>
+    <string name="dw_csat_feedback_helps">你的反馈帮助我们做得更好。</string>
+    <string name="dw_csat_submit">提交</string>
+    <string name="dw_csat_submitting">发送中…</string>
+    <string name="dw_csat_submit_error">评分发送失败，请重试。</string>
+
+    <!-- Article detail -->
+    <string name="dw_article_loading">加载中…</string>
+    <string name="dw_article_load_error">无法加载这篇文章。</string>
+    <string name="dw_min_read">阅读约 %1$s 分钟</string> <!-- args: %1$s = min -->
+    <string name="dw_time_just_now">刚刚</string>
+    <string name="dw_time_minutes_ago">%1$s 分钟前</string> <!-- args: %1$s = n -->
+    <string name="dw_time_hours_ago">%1$s 小时前</string> <!-- args: %1$s = n -->
+    <string name="dw_time_days_ago">%1$s 天前</string> <!-- args: %1$s = n -->
+    <string name="dw_by_author">作者：%1$s</string> <!-- args: %1$s = author -->
+    <string name="dw_open_in_help_center">在帮助中心打开</string>
+    <string name="dw_article_helpful">这篇文章有帮助吗？</string>
+    <string name="dw_yes">是</string>
+    <string name="dw_no">否</string>
+    <string name="dw_feedback_thanks_yes">感谢反馈，很高兴能帮到你。</string>
+    <string name="dw_feedback_thanks_no">感谢告知，我们会继续改进。你也可以在下方开始对话获取直接帮助。</string>
+
+    <!-- Tabs -->
+    <string name="dw_tab_conversation">对话</string>
+    <string name="dw_tab_help">帮助中心</string>
+
+    <!-- Gating header -->
+    <string name="dw_before_we_start">开始之前</string>
+
+    <!-- Help center header -->
+    <string name="dw_help_header">需要什么帮助？</string>
+    <string name="dw_help_sub">搜索文章或浏览热门主题。</string>
+    <string name="dw_popular_articles">热门文章</string>
+
+    <!-- CSAT a11y -->
+    <string name="dw_csat_rate_aria">评分 %1$s（满分 %2$s）</string> <!-- args: %1$s = n, %2$s = max -->
+
+    <!-- Message meta -->
+    <string name="dw_just_now">刚刚</string>
+    <string name="dw_new_messages">新消息</string>
+
+    <!-- The × on a card above the launcher -->
+    <string name="dw_hide_message">隐藏消息</string>
+
+    <!-- Queue position while waiting for an agent -->
+    <string name="dw_queue_next">下一位就是您。客服将很快为您服务。</string>
+    <string name="dw_queue_position">您排在第 %1$s 位。下一位空闲的客服将为您服务。</string> <!-- args: %1$s = n -->
+
+    <!-- Continuous chat: conversation boundaries and status lines in the thread -->
+    <string name="dw_chat_closed">对话已关闭</string>
+    <string name="dw_new_conversation">新对话</string>
+    <string name="dw_resolved_by_you">您已结束对话</string>
+
+    <!-- The visitor's own "Frage geklärt" in the thread, where the button's label is not there (Fynn 2.0). -->
+    <string name="dw_question_resolved">问题已解决</string>
+    <string name="dw_conversation_resolved">对话已解决</string>
+    <string name="dw_conversation_reopened">对话已重新打开</string>
+
+    <!-- Handover between team members (a take over or transfer): system lines with the agent's name (teamMember* when the server sends none) and the waiting line until the next one joins -->
+    <string name="dw_agent_left">%1$s 已不在聊天中</string> <!-- args: %1$s = name -->
+    <string name="dw_agent_joined">%1$s 现在在聊天中</string> <!-- args: %1$s = name -->
+    <string name="dw_team_member_left">一位团队成员已不在聊天中</string>
+    <string name="dw_team_member_joined">一位团队成员现在在聊天中</string>
+
+    <!-- The bot handed the conversation to the team (by what happened next), and a live chat that continues by email at the visitor's address -->
+    <string name="dw_bot_handoff_assigned">机器人已转接对话。正在等待客服...</string>
+    <string name="dw_bot_handoff_queued">机器人已转接对话。您已在排队中，下一位空闲的客服将为您服务。</string>
+    <string name="dw_bot_handoff_waiting">机器人已转接对话。客服将很快回复您。</string>
+    <string name="dw_bot_handoff_ai_agent">机器人已将对话转接给 AI 智能体 %1$s。</string> <!-- args: %1$s = name -->
+    <string name="dw_ai_agent_badge">%1$s · AI 智能体</string> <!-- args: %1$s = name -->
+    <string name="dw_continued_by_email">此对话将通过邮件在 %1$s 继续</string> <!-- args: %1$s = email -->
+    <string name="dw_waiting_next_agent">稍后将为您转接下一位团队成员</string>
+    <string name="dw_connecting">正在为您转接...</string>
+
+    <!-- A file sent without text: the Recent row preview and a nameless file. -->
+    <string name="dw_file_preview">文件：%1$s</string> <!-- args: %1$s = name -->
+    <string name="dw_file_sent_preview">发送了一个文件</string>
+    <string name="dw_file_label">文件</string>
+
+    <!-- Error boundary fallback -->
+    <string name="dw_crash_message">聊天出现问题。请重新加载以继续。</string>
+
+    <!-- Upload refusals, one per server code -->
+    <string name="dw_upload_too_large">文件过大。文件大小上限为 %1$s MB。</string> <!-- args: %1$s = max -->
+    <string name="dw_upload_type_not_allowed">此处无法发送此类文件。</string>
+    <string name="dw_upload_rejected">病毒扫描已拦截此文件。</string>
+    <string name="dw_upload_scan_unavailable">无法对此文件进行病毒检查。请稍后重试。</string>
+    <string name="dw_upload_storage_unavailable">无法保存此文件。请稍后重试。</string>
+    <string name="dw_upload_rate_limited">上传次数过多。请等待一分钟后重试。</string>
+    <string name="dw_uploads_disabled">此聊天已关闭文件上传。</string>
+    <string name="dw_upload_conversation_closed">此对话已关闭，无法添加文件。</string>
+    <string name="dw_conversation_closed_read_only">此对话已关闭。</string>
+    <string name="dw_upload_needs_message">请先发送一条消息，然后即可附加文件。</string>
+
+    <!-- The bot's tracking card under its reply -->
+    <string name="dw_tracking_on_its_way">运输中</string>
+    <string name="dw_tracking_out_for_delivery">派送中</string>
+    <string name="dw_tracking_parcel">你的包裹</string>
+    <string name="dw_tracking_order">订单 %1$s</string> <!-- args: %1$s = number -->
+    <string name="dw_tracking_expected">预计送达：%1$s</string> <!-- args: %1$s = date -->
+    <string name="dw_tracking_link">跟踪包裹</string>
+
+    <!-- Fynn's buttons under his answer and under the greeting: the group's name for screen readers (the labels come from the server) -->
+    <string name="dw_chat_options">聊天选项</string>
+
+    <!-- Widget 2.0: the 3 designs of the open widget (start page, conversations, help, the chat header and the launcher) -->
+    <string name="dw_write_to_us">给我们留言</string>
+    <string name="dw_your_conversations">你的对话</string>
+    <string name="dw_your_conversation">你的对话</string>
+    <string name="dw_see_all_conversations">查看全部 %1$s 个</string> <!-- args: %1$s = n -->
+    <string name="dw_all_count">全部 %1$s 个</string> <!-- args: %1$s = n -->
+    <string name="dw_help">帮助</string>
+    <string name="dw_help_title">你需要什么帮助？</string>
+    <string name="dw_search_placeholder">你在找什么？</string>
+    <string name="dw_clear_search">清除搜索</string>
+    <string name="dw_topics">主题</string>
+    <string name="dw_article_count">%1$s 篇文章</string> <!-- args: %1$s = n -->
+    <string name="dw_article_count_one">1 篇文章</string>
+    <string name="dw_results_for">关于“%2$s”的 %1$s 篇文章</string> <!-- args: %1$s = n, %2$s = q -->
+    <string name="dw_results_for_one">关于“%1$s”的 1 篇文章</string> <!-- args: %1$s = q -->
+    <string name="dw_nothing_fitting">没有合适的？</string>
+    <string name="dw_bot_answers_now">%1$s 会立即回答。</string> <!-- args: %1$s = name -->
+    <string name="dw_team_minutes">团队通常几分钟内回复。</string>
+    <string name="dw_team_hours">团队通常几小时内回复。</string>
+    <string name="dw_team_day">团队通常一天内回复。</string>
+    <string name="dw_ask_name">问问 %1$s</string> <!-- args: %1$s = name -->
+    <string name="dw_still_questions">还有问题吗？</string>
+    <string name="dw_ai_assistant">AI 助手</string>
+    <string name="dw_answers_right_away">立即回答</string>
+    <string name="dw_in_the_chat">在对话中</string>
+    <string name="dw_is_in_the_chat">%1$s 在对话中</string> <!-- args: %1$s = name -->
+    <string name="dw_open_conversation_with">与 %1$s 的进行中的对话</string> <!-- args: %1$s = name -->
+    <string name="dw_write_your_question">输入你的问题…</string>
+    <string name="dw_might_help">这也许已经能帮到你</string>
+    <string name="dw_ask_about_article">向 %1$s 询问这篇文章</string> <!-- args: %1$s = name -->
+    <string name="dw_write_about_article">就这篇文章给我们留言</string>
+    <string name="dw_no_conversations">还没有对话。给我们留言，我们会回复你。</string>
+    <string name="dw_unread_message">新消息</string>
+    <string name="dw_sections">区域</string>
+    <string name="dw_today">今天</string>
+    <string name="dw_yesterday">昨天</string>
+    <string name="dw_open_chat">打开聊天</string>
+    <string name="dw_close_chat">关闭聊天</string>
+    <string name="dw_launcher_default">和我们聊天</string>
+
+    <!-- A sentence ending with the language's own full stop, and 2 sentences in a row (a space, none in Japanese and Chinese). -->
+    <string name="dw_sentence">%1$s。</string> <!-- args: %1$s = text -->
+    <string name="dw_two_sentences">%1$s%2$s</string> <!-- args: %1$s = first, %2$s = second -->
+    <string name="dw_you_said">你：%1$s</string> <!-- args: %1$s = text -->
+    <string name="dw_open_on_help_center">在帮助中心打开</string>
+</resources>

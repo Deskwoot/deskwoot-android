@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The web messenger's chat icon (24 x 24, drawn in currentColor). Tinted at runtime.
+     The web's ".9" is written "0.9": some devices before Android 6 crash on a number that starts with a dot (lint InvalidVectorPath). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M20 12a8 8 0 0 1-11.7 7.1L4 20l0.9-4.3A8 8 0 1 1 20 12z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

@@ -1,0 +1,44 @@
+# The help center: topics, search with results, a collection, an article and its vote.
+appId: com.deskwoot.example
+---
+- launchApp
+- tapOn:
+    id: "example_present_help"
+- extendedWaitUntil:
+    visible:
+      id: "dw_collection_row"
+    timeout: 15000
+- tapOn:
+    id: "dw_help_search"
+- inputText: "refund"
+- extendedWaitUntil:
+    visible:
+      id: "dw_help_results_label"
+    timeout: 15000
+- assertVisible:
+    id: "dw_ask_button"
+- tapOn:
+    id: "dw_help_search_clear"
+- tapOn:
+    id: "dw_collection_row"
+    index: 0
+- extendedWaitUntil:
+    visible:
+      id: "dw_article_row"
+    timeout: 15000
+- tapOn:
+    id: "dw_article_row"
+    index: 0
+- extendedWaitUntil:
+    visible:
+      id: "dw_article_title"
+    timeout: 15000
+- scrollUntilVisible:
+    element:
+      id: "dw_vote_yes"
+    direction: DOWN
+- tapOn:
+    id: "dw_vote_yes"
+- assertVisible:
+    id: "dw_vote_thanks"
+- takeScreenshot: help_center

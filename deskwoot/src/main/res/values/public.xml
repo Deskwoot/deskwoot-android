@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    What an app may use of the SDK's resources: only the view ids for UI tests
+    (README, "UI tests"). Everything else (strings, styles, drawables, colors,
+    animations, the internal view tags) is private: Android Studio does not
+    offer it, and lint warns an app that uses it or defines a resource of the
+    same name (PrivateResource), so an app neither builds on texts that change
+    nor overrides the SDK's look by accident. A new id for UI tests goes into
+    dw_ids.xml, the README's table and this file.
+-->
+<resources>
+    <!-- The messenger -->
+    <public type="id" name="dw_messenger_root" />
+    <public type="id" name="dw_screen_container" />
+    <public type="id" name="dw_loading" />
+    <public type="id" name="dw_load_error" />
+    <public type="id" name="dw_retry" />
+    <public type="id" name="dw_close" />
+    <public type="id" name="dw_back" />
+    <public type="id" name="dw_header" />
+    <public type="id" name="dw_header_title" />
+    <public type="id" name="dw_header_subtitle" />
+    <public type="id" name="dw_header_face" />
+    <public type="id" name="dw_open_in_help_center" />
+    <public type="id" name="dw_announcer" />
+    <!-- Start page and help (the segmented control) -->
+    <public type="id" name="dw_start_screen" />
+    <public type="id" name="dw_tab_conversation" />
+    <public type="id" name="dw_tab_help" />
+    <public type="id" name="dw_business_name" />
+    <public type="id" name="dw_welcome_title" />
+    <public type="id" name="dw_welcome_tagline" />
+    <public type="id" name="dw_team_line" />
+    <public type="id" name="dw_write_to_us" />
+    <public type="id" name="dw_see_all_conversations" />
+    <public type="id" name="dw_conversation_row" />
+    <public type="id" name="dw_powered_by" />
+    <!-- Thread -->
+    <public type="id" name="dw_thread_screen" />
+    <public type="id" name="dw_thread_list" />
+    <public type="id" name="dw_new_messages_chip" />
+    <public type="id" name="dw_day_line" />
+    <public type="id" name="dw_activity_line" />
+    <public type="id" name="dw_divider" />
+    <public type="id" name="dw_bubble" />
+    <public type="id" name="dw_bubble_text" />
+    <public type="id" name="dw_who_line" />
+    <public type="id" name="dw_message_time" />
+    <public type="id" name="dw_link_card" />
+    <public type="id" name="dw_tracking_card" />
+    <public type="id" name="dw_tracking_link" />
+    <public type="id" name="dw_reply_quote" />
+    <public type="id" name="dw_image_attachment" />
+    <public type="id" name="dw_file_attachment" />
+    <public type="id" name="dw_help_article_card" />
+    <public type="id" name="dw_typing" />
+    <public type="id" name="dw_choice_button" />
+    <public type="id" name="dw_fynn_resolved" />
+    <public type="id" name="dw_fynn_team" />
+    <public type="id" name="dw_fixed_buttons_error" />
+    <public type="id" name="dw_send_failed_line" />
+    <public type="id" name="dw_retry_send" />
+    <public type="id" name="dw_discard_send" />
+    <public type="id" name="dw_upload_row" />
+    <public type="id" name="dw_csat_card" />
+    <public type="id" name="dw_csat_rating" />
+    <public type="id" name="dw_csat_comment" />
+    <public type="id" name="dw_csat_submit" />
+    <public type="id" name="dw_csat_error" />
+    <public type="id" name="dw_transcript_banner" />
+    <public type="id" name="dw_transcript_send" />
+    <public type="id" name="dw_transcript_email" />
+    <public type="id" name="dw_transcript_submit" />
+    <public type="id" name="dw_queue_line" />
+    <public type="id" name="dw_offline_line" />
+    <public type="id" name="dw_closed_line" />
+    <public type="id" name="dw_end_conversation" />
+    <public type="id" name="dw_end_failed" />
+    <public type="id" name="dw_start_new_conversation" />
+    <!-- Composer -->
+    <public type="id" name="dw_composer" />
+    <public type="id" name="dw_composer_input" />
+    <public type="id" name="dw_composer_send" />
+    <public type="id" name="dw_composer_attach" />
+    <public type="id" name="dw_composer_emoji" />
+    <public type="id" name="dw_composer_error" />
+    <public type="id" name="dw_reply_bar" />
+    <public type="id" name="dw_reply_cancel" />
+    <public type="id" name="dw_emoji_panel" />
+    <public type="id" name="dw_emoji" />
+    <!-- Before the chat -->
+    <public type="id" name="dw_gate_screen" />
+    <public type="id" name="dw_gate_intro" />
+    <public type="id" name="dw_gate_field" />
+    <public type="id" name="dw_gate_email" />
+    <public type="id" name="dw_field_error" />
+    <public type="id" name="dw_gate_submit" />
+    <public type="id" name="dw_gate_cancel" />
+    <!-- Conversations -->
+    <public type="id" name="dw_conversations_screen" />
+    <public type="id" name="dw_conversations_list" />
+    <public type="id" name="dw_no_conversations" />
+    <public type="id" name="dw_new_conversation" />
+    <!-- Help center -->
+    <public type="id" name="dw_help_screen" />
+    <public type="id" name="dw_help_search" />
+    <public type="id" name="dw_help_search_clear" />
+    <public type="id" name="dw_collection_row" />
+    <public type="id" name="dw_article_row" />
+    <public type="id" name="dw_help_results_label" />
+    <public type="id" name="dw_ask_card" />
+    <public type="id" name="dw_ask_button" />
+    <public type="id" name="dw_collection_screen" />
+    <public type="id" name="dw_article_screen" />
+    <public type="id" name="dw_article_title" />
+    <public type="id" name="dw_article_body" />
+    <public type="id" name="dw_vote_yes" />
+    <public type="id" name="dw_vote_no" />
+    <public type="id" name="dw_vote_thanks" />
+    <!-- Image viewer -->
+    <public type="id" name="dw_image_viewer" />
+    <public type="id" name="dw_viewer_image" />
+    <public type="id" name="dw_viewer_share" />
+    <public type="id" name="dw_viewer_close" />
+    <!-- Over the app -->
+    <public type="id" name="dw_in_app_card" />
+    <public type="id" name="dw_in_app_card_close" />
+    <public type="id" name="dw_launcher" />
+    <public type="id" name="dw_launcher_badge" />
+    <public type="id" name="dw_header_help" />
+    <public type="id" name="dw_header_conversations" />
+    <public type="id" name="dw_header_badge" />
+    <public type="id" name="dw_tab_bar" />
+    <public type="id" name="dw_sheet" />
+    <public type="id" name="dw_greeting_block" />
+    <public type="id" name="dw_open_conversation_banner" />
+    <public type="id" name="dw_article_tray" />
+    <public type="id" name="dw_recent_card" />
+    <public type="id" name="dw_help_card" />
+    <public type="id" name="dw_article_ask_bar" />
+    <public type="id" name="dw_composer_article" />
+    <public type="id" name="dw_composer_article_remove" />
+</resources>

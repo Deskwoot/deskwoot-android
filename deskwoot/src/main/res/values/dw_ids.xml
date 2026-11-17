@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Stable view ids. Every id except the tags is part of the SDK's contract for UI tests (README, "UI tests"). -->
+<resources>
+    <!-- Internal view tags (not for tests) -->
+    <item name="dw_tag_image_request" type="id" />
+    <item name="dw_tag_image_job" type="id" />
+    <!-- Internal accessibility actions (not for tests): open the first 8 links of a message -->
+    <item name="dw_action_link_1" type="id" />
+    <item name="dw_action_link_2" type="id" />
+    <item name="dw_action_link_3" type="id" />
+    <item name="dw_action_link_4" type="id" />
+    <item name="dw_action_link_5" type="id" />
+    <item name="dw_action_link_6" type="id" />
+    <item name="dw_action_link_7" type="id" />
+    <item name="dw_action_link_8" type="id" />
+    <!-- Internal accessibility action (not for tests): copy a message's text -->
+    <item name="dw_action_copy" type="id" />
+    <!-- The messenger -->
+    <item name="dw_messenger_root" type="id" />
+    <item name="dw_screen_container" type="id" />
+    <item name="dw_loading" type="id" />
+    <item name="dw_load_error" type="id" />
+    <item name="dw_retry" type="id" />
+    <item name="dw_close" type="id" />
+    <item name="dw_back" type="id" />
+    <item name="dw_header" type="id" />
+    <item name="dw_header_title" type="id" />
+    <item name="dw_header_subtitle" type="id" />
+    <item name="dw_header_face" type="id" />
+    <item name="dw_open_in_help_center" type="id" />
+    <item name="dw_announcer" type="id" />
+    <!-- Start page and help (the segmented control) -->
+    <item name="dw_start_screen" type="id" />
+    <item name="dw_tab_conversation" type="id" />
+    <item name="dw_tab_help" type="id" />
+    <item name="dw_business_name" type="id" />
+    <item name="dw_welcome_title" type="id" />
+    <item name="dw_welcome_tagline" type="id" />
+    <item name="dw_team_line" type="id" />
+    <item name="dw_write_to_us" type="id" />
+    <item name="dw_see_all_conversations" type="id" />
+    <item name="dw_conversation_row" type="id" />
+    <item name="dw_powered_by" type="id" />
+    <!-- Thread -->
+    <item name="dw_thread_screen" type="id" />
+    <item name="dw_thread_list" type="id" />
+    <item name="dw_new_messages_chip" type="id" />
+    <item name="dw_day_line" type="id" />
+    <item name="dw_activity_line" type="id" />
+    <item name="dw_divider" type="id" />
+    <item name="dw_bubble" type="id" />
+    <item name="dw_bubble_text" type="id" />
+    <item name="dw_who_line" type="id" />
+    <item name="dw_message_time" type="id" />
+    <item name="dw_link_card" type="id" />
+    <item name="dw_tracking_card" type="id" />
+    <item name="dw_tracking_link" type="id" />
+    <item name="dw_reply_quote" type="id" />
+    <item name="dw_image_attachment" type="id" />
+    <item name="dw_file_attachment" type="id" />
+    <item name="dw_help_article_card" type="id" />
+    <item name="dw_typing" type="id" />
+    <item name="dw_choice_button" type="id" />
+    <item name="dw_fynn_resolved" type="id" />
+    <item name="dw_fynn_team" type="id" />
+    <item name="dw_fixed_buttons_error" type="id" />
+    <item name="dw_send_failed_line" type="id" />
+    <item name="dw_retry_send" type="id" />
+    <item name="dw_discard_send" type="id" />
+    <item name="dw_upload_row" type="id" />
+    <item name="dw_csat_card" type="id" />
+    <item name="dw_csat_rating" type="id" />
+    <item name="dw_csat_comment" type="id" />
+    <item name="dw_csat_submit" type="id" />
+    <item name="dw_csat_error" type="id" />
+    <item name="dw_transcript_banner" type="id" />
+    <item name="dw_transcript_send" type="id" />
+    <item name="dw_transcript_email" type="id" />
+    <item name="dw_transcript_submit" type="id" />
+    <item name="dw_queue_line" type="id" />
+    <item name="dw_offline_line" type="id" />
+    <item name="dw_closed_line" type="id" />
+    <item name="dw_end_conversation" type="id" />
+    <item name="dw_end_failed" type="id" />
+    <item name="dw_start_new_conversation" type="id" />
+    <!-- Composer -->
+    <item name="dw_composer" type="id" />
+    <item name="dw_composer_input" type="id" />
+    <item name="dw_composer_send" type="id" />
+    <item name="dw_composer_attach" type="id" />
+    <item name="dw_composer_emoji" type="id" />
+    <item name="dw_composer_error" type="id" />
+    <item name="dw_reply_bar" type="id" />
+    <item name="dw_reply_cancel" type="id" />
+    <item name="dw_emoji_panel" type="id" />
+    <item name="dw_emoji" type="id" />
+    <!-- Before the chat -->
+    <item name="dw_gate_screen" type="id" />
+    <item name="dw_gate_intro" type="id" />
+    <item name="dw_gate_field" type="id" />
+    <item name="dw_gate_email" type="id" />
+    <item name="dw_field_error" type="id" />
+    <item name="dw_gate_submit" type="id" />
+    <item name="dw_gate_cancel" type="id" />
+    <!-- Conversations -->
+    <item name="dw_conversations_screen" type="id" />
+    <item name="dw_conversations_list" type="id" />
+    <item name="dw_no_conversations" type="id" />
+    <item name="dw_new_conversation" type="id" />
+    <!-- Help center -->
+    <item name="dw_help_screen" type="id" />
+    <item name="dw_help_search" type="id" />
+    <item name="dw_help_search_clear" type="id" />
+    <item name="dw_collection_row" type="id" />
+    <item name="dw_article_row" type="id" />
+    <item name="dw_help_results_label" type="id" />
+    <item name="dw_ask_card" type="id" />
+    <item name="dw_ask_button" type="id" />
+    <item name="dw_collection_screen" type="id" />
+    <item name="dw_article_screen" type="id" />
+    <item name="dw_article_title" type="id" />
+    <item name="dw_article_body" type="id" />
+    <item name="dw_vote_yes" type="id" />
+    <item name="dw_vote_no" type="id" />
+    <item name="dw_vote_thanks" type="id" />
+    <!-- Image viewer -->
+    <item name="dw_image_viewer" type="id" />
+    <item name="dw_viewer_image" type="id" />
+    <item name="dw_viewer_share" type="id" />
+    <item name="dw_viewer_close" type="id" />
+    <!-- Over the app -->
+    <item name="dw_in_app_card" type="id" />
+    <item name="dw_in_app_card_close" type="id" />
+    <item name="dw_launcher" type="id" />
+    <item name="dw_launcher_badge" type="id" />
+    <!-- Empfang and Direkt -->
+    <item name="dw_header_help" type="id" />
+    <item name="dw_header_conversations" type="id" />
+    <item name="dw_header_badge" type="id" />
+    <item name="dw_tab_bar" type="id" />
+    <item name="dw_sheet" type="id" />
+    <item name="dw_greeting_block" type="id" />
+    <item name="dw_open_conversation_banner" type="id" />
+    <item name="dw_article_tray" type="id" />
+    <item name="dw_recent_card" type="id" />
+    <item name="dw_help_card" type="id" />
+    <item name="dw_article_ask_bar" type="id" />
+    <item name="dw_composer_article" type="id" />
+    <item name="dw_composer_article_remove" type="id" />
+</resources>

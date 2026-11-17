@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The app, not the SDK, asks for this on Android 13 and later; without it the SDK shows no push notification. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".ExampleApp"
+        android:allowBackup="false"
+        android:label="Deskwoot example"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <!-- Points the SDK at the server the build names (deskwoot.com unless set otherwise, see README, "Example app"). -->
+        <meta-data
+            android:name="com.deskwoot.sdk.BASE_URL"
+            android:value="${deskwootBaseUrl}" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

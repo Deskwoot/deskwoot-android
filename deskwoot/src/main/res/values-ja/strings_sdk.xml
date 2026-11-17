@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dw_sdk_notification_channel">チャットの返信</string>
+    <string name="dw_sdk_offline">接続がありません。再試行しています…</string>
+    <string name="dw_sdk_camera">カメラ</string>
+    <string name="dw_sdk_photos">写真</string>
+    <string name="dw_sdk_files">ファイルを選択</string>
+    <string name="dw_sdk_share">共有</string>
+    <string name="dw_sdk_unavailable">このチャットは現在利用できません。</string>
+    <string name="dw_sdk_identity_failed">アカウントを確認できませんでした。</string>
+    <string name="dw_sdk_server_error">こちら側で問題が発生しました。</string>
+    <string name="dw_sdk_not_sent">未送信</string>
+    <string name="dw_sdk_discard">削除</string>
+    <string name="dw_sdk_copy">コピー</string>
+    <string name="dw_sdk_sending">送信中</string>
+    <string name="dw_sdk_image">画像</string>
+    <string name="dw_sdk_is_typing">%1$sが入力中</string>
+    <string name="dw_sdk_announce">%1$s：%2$s</string>
+    <string name="dw_sdk_too_long">このメッセージは長すぎるため送信できません。</string>
+    <string name="dw_sdk_send_rate_limited">短時間にメッセージが多すぎます。少し待つと再送できます。</string>
+    <string name="dw_sdk_send_new_conversation_limit">現在、新しい会話が多すぎます。しばらくすると再び利用できます。</string>
+    <string name="dw_sdk_send_monthly_limit">このチャットは現在、新しい会話を開始できません。</string>
+    <string name="dw_sdk_send_conversation_resolved">この会話は終了したため、メッセージを受け付けていません。</string>
+    <plurals name="dw_sdk_unread">
+        <item quantity="other">新着メッセージ%1$d件</item>
+    </plurals>
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>

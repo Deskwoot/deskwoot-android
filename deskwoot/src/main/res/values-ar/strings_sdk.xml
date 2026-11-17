@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dw_sdk_notification_channel">ردود الدردشة</string>
+    <string name="dw_sdk_offline">لا يوجد اتصال. جارٍ إعادة المحاولة…</string>
+    <string name="dw_sdk_camera">الكاميرا</string>
+    <string name="dw_sdk_photos">الصور</string>
+    <string name="dw_sdk_files">اختيار ملف</string>
+    <string name="dw_sdk_share">مشاركة</string>
+    <string name="dw_sdk_unavailable">هذه المحادثة غير متاحة حاليًا.</string>
+    <string name="dw_sdk_identity_failed">تعذّر تأكيد الحساب.</string>
+    <string name="dw_sdk_server_error">حدث خطأ من جانبنا.</string>
+    <string name="dw_sdk_not_sent">لم تُرسل</string>
+    <string name="dw_sdk_discard">حذف</string>
+    <string name="dw_sdk_copy">نسخ</string>
+    <string name="dw_sdk_sending">جارٍ الإرسال</string>
+    <string name="dw_sdk_image">صورة</string>
+    <string name="dw_sdk_is_typing">%1$s يكتب الآن</string>
+    <string name="dw_sdk_announce">%1$s: %2$s</string>
+    <string name="dw_sdk_too_long">هذه الرسالة أطول من أن تُرسل.</string>
+    <string name="dw_sdk_send_rate_limited">رسائل كثيرة في وقت قصير. ستنجح المحاولة مرة أخرى بعد لحظة.</string>
+    <string name="dw_sdk_send_new_conversation_limit">محادثات جديدة كثيرة الآن. سينجح ذلك لاحقًا.</string>
+    <string name="dw_sdk_send_monthly_limit">لا يمكن لهذه الدردشة بدء محادثات جديدة في الوقت الحالي.</string>
+    <string name="dw_sdk_send_conversation_resolved">انتهت هذه المحادثة ولم تعد تقبل رسائل.</string>
+    <plurals name="dw_sdk_unread">
+        <item quantity="zero">لا توجد رسائل جديدة</item>
+        <item quantity="one">رسالة جديدة واحدة</item>
+        <item quantity="two">رسالتان جديدتان</item>
+        <item quantity="few">%1$d رسائل جديدة</item>
+        <item quantity="many">%1$d رسالة جديدة</item>
+        <item quantity="other">%1$d رسالة جديدة</item>
+    </plurals>
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>

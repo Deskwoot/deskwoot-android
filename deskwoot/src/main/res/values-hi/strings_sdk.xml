@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dw_sdk_notification_channel">चैट के जवाब</string>
+    <string name="dw_sdk_offline">कनेक्शन नहीं है। फिर से कोशिश हो रही है…</string>
+    <string name="dw_sdk_camera">कैमरा</string>
+    <string name="dw_sdk_photos">फ़ोटो</string>
+    <string name="dw_sdk_files">फ़ाइल चुनें</string>
+    <string name="dw_sdk_share">शेयर करें</string>
+    <string name="dw_sdk_unavailable">यह चैट अभी उपलब्ध नहीं है।</string>
+    <string name="dw_sdk_identity_failed">खाते की पुष्टि नहीं हो सकी।</string>
+    <string name="dw_sdk_server_error">हमारी ओर से कुछ गड़बड़ हो गई।</string>
+    <string name="dw_sdk_not_sent">नहीं भेजा गया</string>
+    <string name="dw_sdk_discard">हटाएँ</string>
+    <string name="dw_sdk_copy">कॉपी करें</string>
+    <string name="dw_sdk_sending">भेजा जा रहा है</string>
+    <string name="dw_sdk_image">चित्र</string>
+    <string name="dw_sdk_is_typing">%1$s लिख रहे हैं</string>
+    <string name="dw_sdk_announce">%1$s: %2$s</string>
+    <string name="dw_sdk_too_long">यह संदेश भेजने के लिए बहुत लंबा है।</string>
+    <string name="dw_sdk_send_rate_limited">थोड़े समय में बहुत ज़्यादा संदेश। थोड़ी देर में दोबारा कोशिश हो पाएगी।</string>
+    <string name="dw_sdk_send_new_conversation_limit">अभी बहुत ज़्यादा नई बातचीत हैं। बाद में फिर से हो पाएगा।</string>
+    <string name="dw_sdk_send_monthly_limit">यह चैट अभी नई बातचीत शुरू नहीं कर सकती।</string>
+    <string name="dw_sdk_send_conversation_resolved">यह बातचीत खत्म हो चुकी है और अब संदेश नहीं लेती।</string>
+    <plurals name="dw_sdk_unread">
+        <item quantity="one">%1$d नया संदेश</item>
+        <item quantity="other">%1$d नए संदेश</item>
+    </plurals>
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>

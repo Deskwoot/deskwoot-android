@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        The messenger's own window theme. It is built on the platform's
+        Material theme only (no AppCompat, no Material Components) and reads
+        nothing from the app's theme. Every color on screen is set in code from
+        the inbox's palette; these items only cover what the platform draws by
+        itself: the caret and selection handles, the edge glow before Android
+        12, and the system menus (attachment menu).
+
+        The styles carry the literal `dw_` prefix like every other resource of
+        the SDK (`resourcePrefix`). Lint's ResourceName check would also pass
+        `DwMessengerTheme.Light` (it compares the prefix without its "_" and
+        ignores case), but only the literal prefix keeps all SDK resources in
+        one namespace an app never uses by accident. Private (public.xml).
+    -->
+    <style name="dw_messenger_theme_light" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/dw_window_light</item>
+        <item name="android:colorAccent">@color/dw_ink_light</item>
+        <item name="android:colorEdgeEffect">@color/dw_ink3_light</item>
+        <item name="android:windowAnimationStyle">@style/dw_messenger_window_animation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="dw_messenger_theme_dark" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/dw_window_dark</item>
+        <item name="android:colorAccent">@color/dw_ink_dark</item>
+        <item name="android:colorEdgeEffect">@color/dw_ink3_dark</item>
+        <item name="android:windowAnimationStyle">@style/dw_messenger_window_animation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- The messenger slides up when it opens and down when it closes; the app stays where it is. -->
+    <style name="dw_messenger_window_animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/dw_slide_in_up</item>
+        <item name="android:activityOpenExitAnimation">@anim/dw_hold</item>
+        <item name="android:activityCloseEnterAnimation">@anim/dw_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/dw_slide_out_down</item>
+    </style>
+</resources>

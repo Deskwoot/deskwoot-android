@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The widget API and Ably's event stream. The only permission the SDK asks for. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <!--
+            The whole messenger is this one Activity. Not exported. It has the
+            app's own task affinity (none of its own), so it joins the app's
+            task and never makes a second entry in Recents. It is not excluded
+            from Recents: a notification tapped while the app had no task puts
+            the app's launch Activity under it as the root of the new task,
+            and that task is the app's entry in Recents. No orientation lock.
+            Size changes (rotation, split screen, a keyboard) only re-lay out
+            the open screen; the predictive back gesture steps through the
+            messenger's screens before it closes it.
+        -->
+        <activity
+            android:name="com.deskwoot.sdk.ui.DeskwootActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:enableOnBackInvokedCallback="true"
+            android:exported="false"
+            android:theme="@style/dw_messenger_theme_light"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!--
+            Photos taken with the camera and files opened from the chat are shared
+            with other apps through this provider, under the SDK's own authority.
+            A subclass, so it never collides with the app's own FileProvider.
+        -->
+        <provider
+            android:name="com.deskwoot.sdk.ui.files.DeskwootFileProvider"
+            android:authorities="${applicationId}.deskwoot.files"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/dw_file_paths" />
+        </provider>
+    </application>
+
+</manifest>

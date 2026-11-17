@@ -1,0 +1,34 @@
+# The other ways to open the messenger: a new conversation with a draft in the field (not sent,
+# after the step before the chat when the inbox asks one), and the newest conversation.
+appId: com.deskwoot.example
+---
+- launchApp
+- tapOn:
+    id: "example_present_new"
+- runFlow:
+    when:
+      visible:
+        id: "dw_composer_input"
+    commands:
+      - assertVisible: "Hi! I have a question about my order."
+- runFlow:
+    when:
+      visible:
+        id: "dw_gate_screen"
+    commands:
+      - assertVisible:
+          id: "dw_gate_submit"
+- tapOn:
+    id: "dw_close"
+- assertVisible:
+    id: "example_present"
+- tapOn:
+    id: "example_present_conversation"
+- extendedWaitUntil:
+    visible:
+      id: "dw_thread_screen"
+    timeout: 15000
+- tapOn:
+    id: "dw_close"
+- assertVisible:
+    id: "example_present"

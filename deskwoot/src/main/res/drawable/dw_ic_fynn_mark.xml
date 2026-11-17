@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The web messenger's Fynn mark icon (24 x 24, drawn in currentColor). Tinted at runtime. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M7.68 3H16.32A4.68 4.68 0 0 1 21 7.68V16.32A4.68 4.68 0 0 1 16.32 21H3V7.68A4.68 4.68 0 0 1 7.68 3ZM11.1,7.68A3.42,3.42 0 0,1 7.68,11.1A0.9,0.9 0 0,0 7.68,12.9A3.42,3.42 0 0,1 11.1,16.32A0.9,0.9 0 0,0 12.9,16.32A3.42,3.42 0 0,1 16.32,12.9A0.9,0.9 0 0,0 16.32,11.1A3.42,3.42 0 0,1 12.9,7.68A0.9,0.9 0 0,0 11.1,7.68Z"
+        android:fillColor="#FF000000" />
+</vector>

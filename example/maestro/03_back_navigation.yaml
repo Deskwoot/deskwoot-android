@@ -1,0 +1,35 @@
+# System back steps through the messenger's screens, then closes it; the app is still there.
+appId: com.deskwoot.example
+---
+- launchApp
+- tapOn:
+    id: "example_present_help"
+- extendedWaitUntil:
+    visible:
+      id: "dw_collection_row"
+    timeout: 15000
+- tapOn:
+    id: "dw_collection_row"
+    index: 0
+- extendedWaitUntil:
+    visible:
+      id: "dw_article_row"
+    timeout: 15000
+- tapOn:
+    id: "dw_article_row"
+    index: 0
+- assertVisible:
+    id: "dw_article_screen"
+- back
+- assertVisible:
+    id: "dw_collection_screen"
+- back
+- assertVisible:
+    id: "dw_help_screen"
+# The help is a top level view: back goes to the start page, then out.
+- back
+- assertVisible:
+    id: "dw_write_to_us"
+- back
+- assertVisible:
+    id: "example_present"

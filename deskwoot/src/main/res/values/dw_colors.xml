@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only for the window theme; the screens take every color from the palette in code (ui/theme). -->
+    <color name="dw_window_light">#FFFFFFFF</color>
+    <color name="dw_window_dark">#FF14141F</color>
+    <color name="dw_ink_light">#FF16162B</color>
+    <color name="dw_ink_dark">#FFEEEEF6</color>
+    <color name="dw_ink3_light">#FF82829A</color>
+    <color name="dw_ink3_dark">#FF808099</color>
+</resources>

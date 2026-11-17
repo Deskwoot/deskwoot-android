@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The web messenger's robot icon (24 x 24, drawn in currentColor). Tinted at runtime. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M12 7V4"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M10.9,3A1.1,1.1 0 1,1 13.1,3A1.1,1.1 0 1,1 10.9,3Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M7.7,7H16.3A3.2,3.2 0 0,1 19.5,10.2V14.8A3.2,3.2 0 0,1 16.3,18H7.7A3.2,3.2 0 0,1 4.5,14.8V10.2A3.2,3.2 0 0,1 7.7,7Z"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M8.05,12.2A1.15,1.15 0 1,1 10.35,12.2A1.15,1.15 0 1,1 8.05,12.2Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M13.65,12.2A1.15,1.15 0 1,1 15.95,12.2A1.15,1.15 0 1,1 13.65,12.2Z"
+        android:fillColor="#FF000000" />
+    <path
+        android:pathData="M9.5 15.4h5"
+        android:strokeColor="#FF000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

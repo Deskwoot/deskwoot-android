@@ -1,0 +1,29 @@
+# Push through the example's debug entry (debug builds only): the SDK takes a
+# token, a push of this inbox is ours and shows, a push of another inbox is not. Needs POST_NOTIFICATIONS
+# granted on Android 13 and later (adb shell pm grant com.deskwoot.example android.permission.POST_NOTIFICATIONS).
+appId: com.deskwoot.example
+---
+- launchApp
+- scrollUntilVisible:
+    element:
+      id: "example_push_token"
+- tapOn:
+    id: "example_push_token"
+- scrollUntilVisible:
+    element:
+      id: "example_debug_push"
+- tapOn:
+    id: "example_debug_push"
+- scrollUntilVisible:
+    element:
+      text: "handlePush = true"
+    timeout: 15000
+- scrollUntilVisible:
+    element:
+      id: "example_debug_push_other"
+- tapOn:
+    id: "example_debug_push_other"
+- scrollUntilVisible:
+    element:
+      text: "handlePush = false"
+    timeout: 15000

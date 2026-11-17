@@ -1,0 +1,24 @@
+# German with the inbox's "Sie", then Arabic from right to left: every text in one language.
+appId: com.deskwoot.example
+---
+- launchApp
+- tapOn:
+    id: "example_language"
+- tapOn:
+    id: "example_language"
+- tapOn:
+    id: "example_present"
+- assertVisible: "Schreiben Sie uns"
+- tapOn:
+    id: "dw_close"
+- repeat:
+    times: 8
+    commands:
+      - tapOn:
+          id: "example_language"
+- tapOn:
+    id: "example_present"
+- assertVisible: "راسلنا"
+- takeScreenshot: arabic
+- tapOn:
+    id: "dw_close"

@@ -1,0 +1,50 @@
+# A new visitor writes for the first time: the start page, the step before the chat
+# (the email step or the pre chat form, whichever the inbox asks), the message, Fynn's answer.
+# The email goes to the server: pass a mailbox you read with -e TEST_EMAIL=<address>
+# (without it the email stays empty and the flow fails at that step).
+appId: com.deskwoot.example
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: "example_present"
+- assertVisible:
+    id: "dw_write_to_us"
+- tapOn:
+    id: "dw_write_to_us"
+- runFlow:
+    when:
+      visible:
+        id: "dw_gate_email"
+    commands:
+      - tapOn:
+          id: "dw_gate_email"
+      - inputText: "${TEST_EMAIL || ''}"
+      - tapOn:
+          id: "dw_gate_submit"
+- runFlow:
+    when:
+      visible:
+        id: "dw_gate_field"
+    commands:
+      - tapOn: "Your name"
+      - inputText: "Anna Weber"
+      - tapOn: "Email"
+      - inputText: "${TEST_EMAIL || ''}"
+      - tapOn: "Topic"
+      - tapOn: "Order"
+      - tapOn:
+          id: "dw_gate_submit"
+- assertVisible:
+    id: "dw_composer_input"
+- tapOn:
+    id: "dw_composer_input"
+- inputText: "Hi, do you ship to Austria?"
+- tapOn:
+    id: "dw_composer_send"
+- assertVisible: "Hi, do you ship to Austria?"
+- extendedWaitUntil:
+    visible:
+      id: "dw_who_line"
+    timeout: 30000
+- takeScreenshot: first_message

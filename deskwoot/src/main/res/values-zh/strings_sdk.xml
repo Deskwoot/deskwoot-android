@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dw_sdk_notification_channel">聊天回复</string>
+    <string name="dw_sdk_offline">无网络连接。正在重试…</string>
+    <string name="dw_sdk_camera">相机</string>
+    <string name="dw_sdk_photos">照片</string>
+    <string name="dw_sdk_files">选取文件</string>
+    <string name="dw_sdk_share">共享</string>
+    <string name="dw_sdk_unavailable">此聊天目前不可用。</string>
+    <string name="dw_sdk_identity_failed">无法确认该账户。</string>
+    <string name="dw_sdk_server_error">我们这边出了点问题。</string>
+    <string name="dw_sdk_not_sent">未发送</string>
+    <string name="dw_sdk_discard">删除</string>
+    <string name="dw_sdk_copy">复制</string>
+    <string name="dw_sdk_sending">正在发送</string>
+    <string name="dw_sdk_image">图片</string>
+    <string name="dw_sdk_is_typing">%1$s 正在输入</string>
+    <string name="dw_sdk_announce">%1$s：%2$s</string>
+    <string name="dw_sdk_too_long">此消息过长，无法发送。</string>
+    <string name="dw_sdk_send_rate_limited">短时间内消息过多。稍后即可重试。</string>
+    <string name="dw_sdk_send_new_conversation_limit">目前新会话过多。稍后即可恢复。</string>
+    <string name="dw_sdk_send_monthly_limit">此聊天目前无法开始新的会话。</string>
+    <string name="dw_sdk_send_conversation_resolved">此会话已结束，不再接收消息。</string>
+    <plurals name="dw_sdk_unread">
+        <item quantity="other">%1$d 条新消息</item>
+    </plurals>
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>

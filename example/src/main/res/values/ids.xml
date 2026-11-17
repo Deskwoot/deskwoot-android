@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="example_unread" type="id" />
+    <item name="example_present" type="id" />
+    <item name="example_present_conversation" type="id" />
+    <item name="example_present_new" type="id" />
+    <item name="example_present_help" type="id" />
+    <item name="example_identify" type="id" />
+    <item name="example_logout" type="id" />
+    <!-- Whether ExampleApp identifies the stored test user right after setup. -->
+    <item name="example_identify_at_start" type="id" />
+    <item name="example_language" type="id" />
+    <item name="example_theme" type="id" />
+    <item name="example_launcher" type="id" />
+    <item name="example_cards" type="id" />
+    <item name="example_launcher_padding" type="id" />
+    <!-- Debug builds only: a push as FCM would hand it over, without Firebase. -->
+    <item name="example_notification_permission" type="id" />
+    <item name="example_notification_icon" type="id" />
+    <item name="example_push_conversation" type="id" />
+    <item name="example_push_visitor" type="id" />
+    <item name="example_debug_push" type="id" />
+    <item name="example_debug_push_later" type="id" />
+    <item name="example_debug_push_other" type="id" />
+    <item name="example_push_result" type="id" />
+    <item name="example_push_token" type="id" />
+    <item name="example_push_token_clear" type="id" />
+</resources>

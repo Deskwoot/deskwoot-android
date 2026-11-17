@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts only the native SDK needs; the web dictionary has no key for them.
+     The same texts as the iOS SDK's, in all 10 languages; none addresses the reader, so German needs no Sie form.
+     Android names the photo picker "Photos" (iOS: "Photo Library"); "Deskwoot" is never translated and lives in the code. -->
+<resources>
+    <!-- Android only: the name of the notification channel for push notifications, in the system's notification settings. -->
+    <string name="dw_sdk_notification_channel">Chat replies</string>
+    <!-- A quiet line above the composer while the device has no connection; it goes away by itself. -->
+    <string name="dw_sdk_offline">No connection. Trying again…</string>
+    <!-- Attachment menu: take a photo. -->
+    <string name="dw_sdk_camera">Camera</string>
+    <!-- Attachment menu: the system photo picker. -->
+    <string name="dw_sdk_photos">Photos</string>
+    <!-- Attachment menu: pick a file with the system document picker. -->
+    <string name="dw_sdk_files">Choose File</string>
+    <!-- The full screen image viewer's share button. -->
+    <string name="dw_sdk_share">Share</string>
+    <!-- The messenger cannot load: the widget token is unknown or its chat is off (no retry helps). -->
+    <string name="dw_sdk_unavailable">This chat is not available right now.</string>
+    <!-- The messenger cannot load: the app's signed in user could not be verified. -->
+    <string name="dw_sdk_identity_failed">The account could not be confirmed.</string>
+    <!-- The messenger cannot load: the server answered with an error. -->
+    <string name="dw_sdk_server_error">Something went wrong on our side.</string>
+    <!-- A visitor's message that did not go out, under its bubble. -->
+    <string name="dw_sdk_not_sent">Not sent</string>
+    <!-- Removes a message that was not sent. -->
+    <string name="dw_sdk_discard">Delete</string>
+    <!-- Copies a message's text (long press menu). -->
+    <string name="dw_sdk_copy">Copy</string>
+    <!-- Screen readers: a message on its way. -->
+    <string name="dw_sdk_sending">Sending</string>
+    <!-- Screen readers: an image without a file name. -->
+    <string name="dw_sdk_image">Image</string>
+    <!-- Screen readers: the typing indicator. args: %1$s = name -->
+    <string name="dw_sdk_is_typing">%1$s is typing</string>
+    <!-- Screen readers: a new message is read out. args: %1$s = name, %2$s = text -->
+    <string name="dw_sdk_announce">%1$s: %2$s</string>
+    <!-- A message the server would refuse as too long; the text stays in the field. -->
+    <string name="dw_sdk_too_long">This message is too long to send.</string>
+    <!-- A message refused for sending too many in a short time (429), under its bubble; Try again works later. -->
+    <string name="dw_sdk_send_rate_limited">Too many messages in a short time. Trying again works in a moment.</string>
+    <!-- A first message refused because the inbox gets too many new conversations right now (429 new_conversation_limit). -->
+    <string name="dw_sdk_send_new_conversation_limit">Too many new conversations right now. It works again later.</string>
+    <!-- A first message refused because the inbox reached its monthly limit of conversations (403 monthly_conversation_limit). -->
+    <string name="dw_sdk_send_monthly_limit">This chat cannot start new conversations at the moment.</string>
+    <!-- A message refused because its conversation is resolved and takes no more messages (409). -->
+    <string name="dw_sdk_send_conversation_resolved">This conversation has ended and takes no more messages.</string>
+    <!-- Screen readers: the launcher's unread count, with the language's plural rules. -->
+    <plurals name="dw_sdk_unread">
+        <item quantity="one">%1$d new message</item>
+        <item quantity="other">%1$d new messages</item>
+    </plurals>
+    <!-- The in app card's second line: who wrote and when. args: %1$s = name, %2$s = time -->
+    <string name="dw_sdk_card_meta">%1$s • %2$s</string>
+</resources>
